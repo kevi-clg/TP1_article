@@ -154,7 +154,7 @@ async function renderArticles(queryString) {
                     $("#itemsPanel").append(renderArticle(Article)); 
             });
 
-            $('#toggle-button').on("click", function(){
+            $('#voirPlus').on("click", function(){
                 console.log("bitch ass nigga");
                 const toggleButton = $(this); 
                 const textContainer = $('.text-container');

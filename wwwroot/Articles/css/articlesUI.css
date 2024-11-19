@@ -81,14 +81,14 @@
     text-align: right;
 }
 
-/* .text-container {
+ .text-container {
     overflow: hidden;
-    height: 100px;  Hauteur initiale limitée 
-    transition: height 0.3s; // Animation pour un effet fluide 
-}  */
+    height: 100px;  
+    transition: height 0.3s; 
+} 
 
 .text-container.expanded {
-    height: auto; /* Hauteur automatique pour montrer tout le texte */
+    height: auto;
 }
 
 #voirPlus {

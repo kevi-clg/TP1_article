@@ -1,0 +1,98 @@
+
+.ArticleRow {
+    padding: 8px;
+    padding-bottom: 0px;
+   /* scroll-snap-align: start;*/
+}
+
+.ArticleContainer {
+    display: grid;
+    align-items: top;
+    border-bottom: solid black 1px;
+}
+
+.ArticleCategoryContainer{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.ArticleContainer .cmdIcon {
+    display: none;
+}
+
+.ArticleContainer:hover .cmdIcon {
+    display: block;
+}
+
+.ArticleContainer .cmdIcon2 {
+    display: none;
+}
+
+.ArticleContainer:hover .cmdIcon2 {
+    display: block;
+}
+
+.ArticleLayout {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 8px;
+    align-items: center;
+}
+
+.Article {
+    display: grid;
+    
+}
+
+.ArticleTitle {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+}
+
+.ArticleText {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.ArticleCategory {
+    color: rgb(45, 137, 228) !important;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.ArticleCommandPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.ArticledeleteForm {
+    margin: 20px;
+}
+
+.image {
+   width: 100%;
+}
+
+.researchWord{
+    text-align: right;
+}
+
+/* .text-container {
+    overflow: hidden;
+    height: 100px;  Hauteur initiale limitée 
+    transition: height 0.3s; // Animation pour un effet fluide 
+}  */
+
+.text-container.expanded {
+    height: auto; /* Hauteur automatique pour montrer tout le texte */
+}
+
+#voirPlus {
+    margin-top: 10px;
+    cursor: pointer;
+    color: blue;
+}
